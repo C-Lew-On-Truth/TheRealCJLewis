@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Comic Sans MS";  
+    border: white 5px dashed;
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+};
+
+
+
