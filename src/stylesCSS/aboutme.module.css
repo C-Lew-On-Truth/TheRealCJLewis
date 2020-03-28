@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+
+header {
+    margin-top: 2%;
+}
+.introStyle {
+    width: 60%;
+    margin: auto;
+    padding: 4px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.playBar {
+    display:flex;
+    flex-wrap: wrap row; 
+    margin: auto;
+    width: 30%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+button {
+    background-color: black;
+    margin:auto;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+
+
+.picHolder {
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border: white solid 2px;
+    width: 30%;
+    height: 300px;
+}
+
