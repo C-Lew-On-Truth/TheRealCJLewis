@@ -4,18 +4,12 @@ import { useEffect } from 'react';
 
 const ImageKey = [
     {
-        title: "Picture One",
-        subtitle: "The DOM sees this!",
         image: "../Pictures/questionMark.jpg"
     },
     {
-        title: "Picture Two",
-        subtitle: "The DOM sees this!",
         image: "../Pictures/smileyFace2.jpg"
     },
     {
-        title: "Picture Three",
-        subtitle: "The DOM sees this!",
         image: "../Pictures/exclamationMark.jpg"
     }
 
