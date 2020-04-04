@@ -1,7 +1,17 @@
 import React from 'react';
 import aboutMeStyles from '../stylesCSS/aboutme.module.css';
-//import hockeyPic from '../aboutMePics/buffStatethrowBack.jpg';
+import Carousel from 'react-bootstrap/Carousel'
+import hockeyPic from '../aboutMePics/buffStatethrowBack.jpg';
+import SlideShowTesting from './SlideShowTesting.jsx'
 
+
+function Images() {
+    return(
+        <div>
+            <img src={hockeyPic} alt="" />
+        </div>
+    )
+}
 
 class AboutMe extends React.Component {
     constructor() {
@@ -10,29 +20,30 @@ class AboutMe extends React.Component {
             name: "ClayDay",
             picTest: "./Pictures/exclamationMark.jpg",
             message: "You have an Alert",
-            backgroundColor: "black",       
+            backgroundColor: "black",  
+            pictureCase: [
+            './Pictures/exclamationMark.jpg', 
+           './Pictures/questionMark.jpg',
+            './Pictures/smileyFace2.jpg',
+            ],
         }
-        this.makeMessage = this.makeMessage.bind(this)    
-    };
 
-    makeMessage() {
-         alert(this.state.message)
+            this.eventFired = this.eventFired.bind(this)
+   
+    }
+    goHome() {
+        window.location.href="/";
     }
 
-    goHome(){
-        window.location.href="/"
-    }
 
-    /*
-    componentWillMount() {
-        alert('its begun')
-    }
+    eventFired() {
+       alert('You did something buddy')
     
-   */
-
+    }
 
     render() {
        
+        let image = <img src={this.state.pictureCase[0]} alt=""/>
 
         return(
             <div>
@@ -40,8 +51,8 @@ class AboutMe extends React.Component {
 
                 <div className={aboutMeStyles.playBar}>
 
-                    <button onClick={this.makeMessage}>
-                        
+                    <button onClick={this.eventFired}>
+                        Do Event
                     </button>
 
                     <button onClick={this.goHome}>
@@ -59,14 +70,16 @@ class AboutMe extends React.Component {
                     First thing is first! I need to concentrate on ReactJS. Right now that is the KEY!
                   
                 </div>
-
-                <div className={aboutMeStyles.picHolder}>
-                    <img src={this.state.picTest}  alt=""/>
+          
+                <div className={aboutMeStyles.picHolder}>       
+                    <SlideShowTesting />
                 </div>
-
+           
             </div>
         )
     }
 }
+
+
 
 export default AboutMe

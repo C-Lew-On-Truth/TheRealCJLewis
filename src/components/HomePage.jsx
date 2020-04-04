@@ -5,7 +5,7 @@ class HomePage extends React.Component {
     render() {
         const imageSwag = {
             marginTop: "4px",
-            border: "red solid 2px",
+            border: "white ridge 5px",
             width: "150px",
             height: "150px",
             cursor: "pointer"
@@ -80,7 +80,8 @@ class HomePage extends React.Component {
                                     <img
                                     onClick={() => {window.location.href="AboutMe"}}  
                                     src="./Pictures/questionMark.jpg" 
-                                    alt=""/>
+                                    alt=""
+                                    />
                                 </div>
 
                             </section>
@@ -88,7 +89,11 @@ class HomePage extends React.Component {
                             <section>
                                     Experience
                                 <div style={imageSwag}>
-                                    <img src="./Pictures/exclamationMark.jpg" alt=""/>
+                                    <img 
+                                    onClick={() => {window.location.href="Experience"}}
+                                    src="./Pictures/exclamationMark.jpg" 
+                                    alt=""
+                                    />
                                 </div>
 
                             </section>
@@ -96,7 +101,11 @@ class HomePage extends React.Component {
                             <section>
                                     Projects
                                 <div style={imageSwag}>
-                                    <img  src="./Pictures/smileyFace2.jpg" alt="" />
+                                    <img  
+                                    onClick={() => {window.location.href="Projects"}}
+                                    src="./Pictures/smileyFace2.jpg" 
+                                    alt="" 
+                                    />
                                 </div> 
 
                             </section>

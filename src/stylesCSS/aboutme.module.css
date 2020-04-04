@@ -34,8 +34,13 @@ button {
     margin: auto;
     margin-bottom: 2%;
     margin-top: 2%;
-    border: white solid 2px;
     width: 30%;
     height: 300px;
 }
+
+.container {
+    padding-top: 20px;
+    text-align: center;
+}
+
 

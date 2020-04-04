@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+
+.slider {
+    position: relative;
+    height: 300px;
+}
+
+.slide {
+    position: absolute;
+    opacity: 0;
+    width: 300px;
+    
+}
+
+.slide.active {
+    opacity: 1;
+
+}
+
+.image {
+    position: absolute;
+    width: 100%;  
+    border: ridge white 4px;
+}
