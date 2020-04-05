@@ -1,33 +1,59 @@
-import React from 'react';
-import aboutMeStyles from '../stylesCSS/aboutme.module.css';
-import Carousel from 'react-bootstrap/Carousel'
-import hockeyPic from '../aboutMePics/buffStatethrowBack.jpg';
-import SlideShowTesting from './SlideShowTesting.jsx'
+import React, { useState } from 'react';
+import '../stylesCSS/aboutMe.css'
+import { useEffect } from 'react';
 
+const ImageKey = [
+    {
+        image: "../Pictures/questionMark.jpg"
+    },
+    {
+        image: "../Pictures/smileyFace2.jpg"
+    },
+    {
+        image: "../Pictures/exclamationMark.jpg"
+    }
 
-function Images() {
+];
+
+function SlidesFunc( {pictures} ) {
+
+    const [presImg, setPresImg] = useState(0)
+    const { length } = pictures
+    //console.log(presImg)
+    
+    const nextPic = () => {
+        
+        setPresImg( presImg === length - 1 ? 0 : presImg + 1 )
+    }
+
+    useEffect(() => {
+        setTimeout(nextPic, 3000)
+    })
+
+    if(!Array.isArray(pictures) || length <= 0) {
+        return null
+    }
+
     return(
         <div>
-            <img src={hockeyPic} alt="" />
+             <section className="slider">
+                    {pictures.map((s, i) => (   
+                        
+                    <div className={i === presImg ? "active" : "slide"}>
+                        <img className="image" src={s.image} alt=""/>
+                    </div>
+                    ))}
+                </section>
         </div>
-    )
+    );
 }
 
 class AboutMe extends React.Component {
     constructor() {
         super() 
         this.state = {
-            name: "ClayDay",
-            picTest: "./Pictures/exclamationMark.jpg",
-            message: "You have an Alert",
-            backgroundColor: "black",  
-            pictureCase: [
-            './Pictures/exclamationMark.jpg', 
-           './Pictures/questionMark.jpg',
-            './Pictures/smileyFace2.jpg',
-            ],
+            message: "You have an Alert",      
         }
-
             this.eventFired = this.eventFired.bind(this)
    
     }
@@ -35,21 +61,17 @@ class AboutMe extends React.Component {
         window.location.href="/";
     }
 
-
     eventFired() {
-       alert('You did something buddy')
-    
+       alert('You did something buddy') 
     }
 
     render() {
-       
-        let image = <img src={this.state.pictureCase[0]} alt=""/>
 
         return(
-            <div>
+            <div className="mainBox">
                 <header>About Me</header>
 
-                <div className={aboutMeStyles.playBar}>
+                <div className="playBar">
 
                     <button onClick={this.eventFired}>
                         Do Event
@@ -61,7 +83,7 @@ class AboutMe extends React.Component {
                         
                 </div>
                 
-                <div className={aboutMeStyles.introStyle}>
+                <div className="introStyle">
                     Hello This is Clayton Lewis and i want to see if these words will stay in the damn box!
                     Thats all I really need this element to do, is to keep the words in the fucking square!
                     This paragraph will be a few sentences about my upbring and background! I'm still working
@@ -71,8 +93,8 @@ class AboutMe extends React.Component {
                   
                 </div>
           
-                <div className={aboutMeStyles.picHolder}>       
-                    <SlideShowTesting />
+                <div className="picHolder">       
+                    <SlidesFunc pictures={ImageKey} />
                 </div>
            
             </div>

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import './SlideStyles.css';
 import { useEffect } from 'react';
+import '../stylesCSS/SlideStyles.css';
 
 const ImageKey = [
     {
@@ -16,6 +16,7 @@ const ImageKey = [
 ]
 
 const ImageSlider = ({pictures}) => {
+    
     const [presImg, setPresImg] = useState(0)
     const { length } = pictures
     //console.log(presImg)
@@ -45,12 +46,12 @@ const ImageSlider = ({pictures}) => {
     )
 }
 
-const SlideShowTesting = () => {
+const SlideShow = () => {
     return(
-        <main>
+        <div>
             <ImageSlider pictures={ImageKey} />
-        </main>
+        </div>
     )
 }
  
-export default SlideShowTesting
+export default SlideShow

@@ -2,11 +2,16 @@
     box-sizing: border-box;
   }
 
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap column;
+}  
+
 
 .introStyle {
     width: 60%;
     margin: auto;
-    padding: 4px;
     margin-bottom: 2%;
     margin-top: 2%;
     text-align: center;
@@ -29,7 +34,6 @@ button {
     color: white;
 }
 
-
 .picHolder {
     margin: auto;
     margin-bottom: 2%;
@@ -43,4 +47,26 @@ button {
     text-align: center;
 }
 
+/* Slide Show CSS */
+.slider {
+    position: relative;
+    height: 300px;
+}
 
+.slide {
+    position: absolute;
+    opacity: 0;
+    width: 300px;
+    
+}
+
+.slide.active {
+    opacity: 1;
+
+}
+
+.image {
+    position: absolute;
+    width: 100%;  
+    border: ridge white 4px;
+}
