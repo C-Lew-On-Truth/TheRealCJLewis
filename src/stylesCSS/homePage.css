@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+
+.topFlexBox {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap; 
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+.topFlexboxItems {
+    border: white 5px dashed; 
+    text-align: center;
+    margin: 2% auto;
+    font-size: 20px;
+}
+
+.bottomFlexBox {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap; 
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.bottomFlexboxItems {
+    width: 60%;
+    border: white 5px dashed; 
+    text-align: center;
+    margin: 2% auto;
+}
+
+.selectFlexBox {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap; 
+    margin: 2% auto;
+    justify-content: space-evenly;
+    font-size: 20px;
+ 
+}
+ img {
+     height: 100%;
+     width: 100%;
+ }
+
+
+

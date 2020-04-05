@@ -38,7 +38,7 @@ const ImageSlider = ({pictures}) => {
         <section className={"slider"}>
             {pictures.map((s, i) => (   
                         
-                    <div className={i === presImg ? "active" : "slide"} key={s.title}>
+                    <div className={i === presImg ? "active" : "slide"}>
                         <img className="image" src={s.image} alt=""/>
                     </div>
             ))}

@@ -1,7 +1,33 @@
 import React from 'react';
 import homeStyles from '../stylesCSS/homepage.module.css';
+import '../stylesCSS/homePage.css';
 
 class HomePage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            picOne: "./Pictures/profile-pic.jpg" ,     
+        }
+        this.changePic1 = this.changePic1.bind(this)
+        this.changePicBack = this.changePicBack.bind(this)
+    }
+
+    changePic1() {
+       this.setState(
+           {
+               picOne: "./Pictures/StraightCheesin.jpg"
+           }
+       )
+    }
+
+    changePicBack() {
+        this.setState(
+            {
+                picOne: "./Pictures/profile-pic.jpg"
+            }
+        )
+    }
+ 
     render() {
         const imageSwag = {
             marginTop: "4px",
@@ -13,31 +39,26 @@ class HomePage extends React.Component {
 
         const proImage = {
             width: "300px",
-            height: "300px"
+            height: "300px",
         }
-        
+
         return(
            <div>
                <header>
-                   Clayton Lewis
+                   Clayton J. Lewis
                </header>
 
-              <div className={homeStyles.topFlexBox}>
+              <div className="topFlexBox">
 
-                  <article className={homeStyles.topFlexboxItems}>
+                  <article className="topFlexboxItems">
 
-                        <div style={proImage}>
-
-                            <img 
-                            src="./Pictures/profile-pic.jpg" 
-                            alt=""
-                            />
-
+                        <div style={proImage} onMouseEnter={this.changePic1} onMouseLeave={this.changePicBack}>
+                            <img src={this.state.picOne} />
                         </div>
 
                   </article>
 
-                  <div className={homeStyles.topFlexboxItems}>
+                  <div className="topFlexboxItems">
                         <p style={{padding:"20px"}}>
                         Hello this is a test and I want to make sure my grid is functioning the right way.<br></br>
                     It feels great to be productive while being creative at the same time! <br></br>
@@ -49,7 +70,7 @@ class HomePage extends React.Component {
                   </div>
               </div>  
                
-               <div className={homeStyles.bottomFlexBox}>
+               <div className="bottomFlexBox">
 
                    <div className={homeStyles.bottomFlexboxItems}>      
 
@@ -69,11 +90,9 @@ class HomePage extends React.Component {
 
                    </div>
 
-                   <div className={homeStyles.bottomFlexboxItems}
-                   style={{width: "60%"}}
-                   >
+                   <div className="bottomFlexboxItems" style={{width: "60%"}}>
 
-                        <div  className={homeStyles.selectFlexBox }>
+                        <div className="selectFlexBox">
                             <section>
                                     About Me
                                 <div style={imageSwag}>
