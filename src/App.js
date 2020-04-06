@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import HomePage from './components/HomePage.jsx';
 import AboutMe from './components/AboutMe.jsx';
+import OwlCarousel from 'react-owl-carousel';
 //import SlideShow from './components/SlideShow.jsx';
 import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
