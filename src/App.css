@@ -3,13 +3,13 @@
   }
 
 
+
+
 body {
     background-color: black;
     color: white;
     font-family: "Comic Sans MS";  
     border: white 5px dashed;
-    width: auto;
-    height: auto;
 }
 
 header {
@@ -19,10 +19,4 @@ header {
 };
 
 
-@media only screen and (max-width: 995px) {
-    body {
-        padding: 10px;
-        color: blue;
-    }
-}
 

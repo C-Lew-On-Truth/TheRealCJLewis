@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../stylesCSS/aboutMe.css'
+import '../stylesCSS/aboutMe.css';
 import { useEffect } from 'react';
 
 const ImageKey = [
