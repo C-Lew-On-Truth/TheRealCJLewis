@@ -7,7 +7,7 @@
     flex-direction: row;
     flex-flow: row wrap; 
     align-items: center;
-    justify-content: space-evenly;  
+   
 }
 
 .topFlexboxItems {
@@ -27,6 +27,7 @@
 }
 
 .bottomFlexboxItems {
+
     border: white 5px dashed; 
     text-align: center;
     margin: 2% auto;

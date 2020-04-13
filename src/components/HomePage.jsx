@@ -58,19 +58,23 @@ class HomePage extends React.Component {
 
                     <article className="topFlexboxItems">
 
-                        <div style={proImage} onMouseEnter={this.changePic1} onMouseLeave={this.changePicBack}>
+                        <div
+                            style={proImage}
+                            onMouseEnter={this.changePic1}
+                            onMouseLeave={this.changePicBack}
+                        >
                             <img src={this.state.picOne} />
                         </div>
 
                     </article>
 
-                    <div className="topFlexboxItems">
+                    <div className="topFlexboxItems" style={{ width: "60%"}}>
                         <p style={{ padding: "20px" }}>
-                            Hello this is a test and I want to make sure my grid is functioning the right way.<br></br>
-                    It feels great to be productive while being creative at the same time! <br></br>
-                    Learning to code has been a struggle, but I feel that I am learning something new <br></br>
-                    everyday! I consider myself a jack of all trades, and have experience in media, <br></br>
-                    sports, and the culinary arts! Now I'm expanding my horizon in the world of technology!<br></br>
+                            Hello this is a test and I want to make sure my grid is functioning the right way.
+                    It feels great to be productive while being creative at the same time! 
+                    Learning to code has been a struggle, but I feel that I am learning something new 
+                    everyday! I consider myself a jack of all trades, and have experience in media, 
+                    sports, and the culinary arts! Now I'm expanding my horizon in the world of technology!
                     I am now learning how to be a professional coder! This site is a glimpse of my skills!
                         </p>
                     </div>
