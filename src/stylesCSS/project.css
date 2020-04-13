@@ -9,7 +9,7 @@
 }
 
 .sliderContainer {
-    border: white 5px solid;
+    border: white 5px ridge;
     width: 40%;
     padding: 5px;
     margin-left: auto;

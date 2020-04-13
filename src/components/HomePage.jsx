@@ -63,7 +63,7 @@ class HomePage extends React.Component {
                             onMouseEnter={this.changePic1}
                             onMouseLeave={this.changePicBack}
                         >
-                            <img src={this.state.picOne} />
+                            <img src={this.state.picOne} alt=""/>
                         </div>
 
                     </article>

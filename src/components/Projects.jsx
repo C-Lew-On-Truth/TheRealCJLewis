@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "video-react/dist/video-react.css"; // import css
 
 import SundayVid from '../assets/Sunday-Skate-Video.mp4';
+import BuffaloDemo from '../assets/Channel-4-Sabres-PKG.mp4';
 import BShockey from '../assets/BsThrowBack.jpg'
 
 
@@ -77,8 +78,17 @@ class Projects extends React.Component {
                     >
                         <BigPlayButton position="center" />
                     </Player>
+                    <Player
+                        playsInline={true}
+                        fluid={false}
+                        height={300}
+                        width={550}
+                        src={BuffaloDemo}
+                    >
+                        <BigPlayButton position="center" />
+                    </Player>
                     <div class="slideProjects">
-                        <img src={BShockey} />
+                        <img src={BShockey} alt=""/>
                     </div>
                  
 
