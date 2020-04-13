@@ -18,7 +18,7 @@
 
 .sliderContainer {
     border: white 5px solid;
-    width: 600px;
+    width: 40%;
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -26,7 +26,7 @@
 }
 
 .slideProjects {
-    width: 300px;
+    width: 100%;
     height: 300px;
     margin-left: auto;
     margin-right: auto;

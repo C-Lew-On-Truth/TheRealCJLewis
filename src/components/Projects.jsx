@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "video-react/dist/video-react.css"; // import css
 
-import SundayVid from '../assets/Sunday-Skate-Video.mp4'
+import SundayVid from '../assets/Sunday-Skate-Video.mp4';
 import Food from '../aboutMePics/Food.JPG';
 import Will from '../aboutMePics/willie.jpg';
 import Amilion from '../aboutMePics/Amilion.JPG'
@@ -23,7 +23,6 @@ class Projects extends React.Component {
             infinite: true,
             speed: 500,
             slidesToShow: 1,
-            slidesToScroll: 1
         };
 
         return (
@@ -37,7 +36,13 @@ class Projects extends React.Component {
 
 
                 <Slider {...settings} className="sliderContainer">
-                    <Player src={SundayVid}>
+                    <Player
+                        playsInline={true}
+                        fluid={false}
+                        height={300}
+                        width={550}
+                        src={SundayVid}
+                    >
                         <BigPlayButton position="center" />
                     </Player>
 
@@ -46,7 +51,7 @@ class Projects extends React.Component {
                     </div>
 
                     <div>
-                        <img className="slideProjects" src={Will} />
+                        <img className="slideProjects" src={Food} />
                     </div>
 
                     <div>
@@ -56,6 +61,7 @@ class Projects extends React.Component {
                     <div>
                         <img className="slideProjects" src={ThrowBack} />
                     </div>
+
                 </Slider>
 
 

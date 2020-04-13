@@ -10,6 +10,13 @@ class Experience extends React.Component{
         return(
            <div>
                <header>Experience</header>
+
+                <div className="playBar">
+                    <button>
+                        
+                    </button>
+                </div>
+
            </div>
         )
     }

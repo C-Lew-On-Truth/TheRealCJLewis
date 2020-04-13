@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../stylesCSS/aboutMe.css';
 import { useEffect } from 'react';
 
+
 const ImageKey = [
     {
         image: "../Pictures/questionMark.jpg"
@@ -61,6 +62,14 @@ class AboutMe extends React.Component {
         window.location.href="/";
     }
 
+    goExperience() {
+        window.location.href="/Experience"
+    }
+
+    goProjects() {
+        window.location.href="/Projects"
+    }
+
     eventFired() {
        alert('You did something buddy') 
     }
@@ -73,13 +82,23 @@ class AboutMe extends React.Component {
 
                 <div className="playBar">
 
+                    <button onClick={this.goHome}>
+                        Go Home
+                    </button>
+
+                    <button onClick={this.goExperience}>
+                        Experience
+                    </button>
+
+                    <button onClick={this.goProjects}>
+                        Projects
+                    </button>   
+
                     <button onClick={this.eventFired}>
                         Do Event
                     </button>
 
-                    <button onClick={this.goHome}>
-                        Go Home
-                    </button>
+                 
                         
                 </div>
                 
