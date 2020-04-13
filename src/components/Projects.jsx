@@ -8,10 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "video-react/dist/video-react.css"; // import css
 
 import SundayVid from '../assets/Sunday-Skate-Video.mp4';
-import Food from '../aboutMePics/Food.JPG';
-import Will from '../aboutMePics/willie.jpg';
-import Amilion from '../aboutMePics/Amilion.JPG'
-import ThrowBack from '../aboutMePics/BsThrowBack.jpg';
+import BShockey from '../assets/BsThrowBack.jpg'
 
 
 class Projects extends React.Component {
@@ -64,6 +61,10 @@ class Projects extends React.Component {
 
                 </div>
 
+                <div class="projectIntro">
+
+                </div>
+
 
 
                 <Slider {...settings} className="sliderContainer">
@@ -76,22 +77,10 @@ class Projects extends React.Component {
                     >
                         <BigPlayButton position="center" />
                     </Player>
-
-                    <div>
-                        <img className="slideProjects" src={Will} />
+                    <div class="slideProjects">
+                        <img src={BShockey} />
                     </div>
-
-                    <div>
-                        <img className="slideProjects" src={Food} />
-                    </div>
-
-                    <div>
-                        <img className="slideProjects" src={Amilion} />
-                    </div>
-
-                    <div>
-                        <img className="slideProjects" src={ThrowBack} />
-                    </div>
+                 
 
                 </Slider>
 

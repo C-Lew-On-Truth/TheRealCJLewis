@@ -2,15 +2,24 @@ import React, { useState } from 'react';
 import { useEffect } from 'react';
 import '../stylesCSS/aboutMe.css';
 
+//Imported Images
+import Food from '../assets/Food.JPG';
+import Lizard from '../assets/Amilion.JPG';
+import BShockey from '../assets/BsThrowBack.jpg'
+import Willie from '../assets/willie.jpg'
+
 const ImageKey = [
     {
-        image: "../Pictures/questionMark.jpg"
+        image: Food
     },
     {
-        image: "../Pictures/smileyFace2.jpg"
+        image: Lizard
     },
     {
-        image: "../Pictures/exclamationMark.jpg"
+        image: BShockey
+    },
+    {
+        image: Willie
     }
 
 ];
@@ -27,7 +36,7 @@ function SlidesFunc( {pictures} ) {
     }
 
     useEffect(() => {
-        setTimeout(nextPic, 3000)
+        setTimeout(nextPic, 1000)
     })
 
     if(!Array.isArray(pictures) || length <= 0) {
