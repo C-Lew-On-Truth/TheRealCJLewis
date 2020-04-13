@@ -3,7 +3,6 @@
   }
 
 body {
-
     background-color: black;
     color: white;
     font-family: "Comic Sans MS";  
@@ -17,23 +16,31 @@ header {
     text-align: center;
 }
 
-
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap row;
+    align-items: center;
+    padding-bottom: 20px;
+} 
 
 .playBar {
     display:flex;
-    flex-wrap: wrap row; 
-    margin: auto;
+    flex-wrap: wrap;
     width: 30%;
     margin-bottom: 2%;
     margin-top: 2%;
+    justify-content: space-evenly;
 }
-
 
 button {
     background-color: black;
+    font-family: "Comic Sans MS"; 
+    border: 2px ridge white;
+    font-size: 15px;
     margin:auto;
     height: 40px;
-    width: 80px;
+    width: 100px;
     color: white;
 }
 

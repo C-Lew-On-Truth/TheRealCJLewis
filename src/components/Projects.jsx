@@ -39,7 +39,7 @@ class Projects extends React.Component {
 
         return (
 
-            <div className="projectContainer">
+            <div className="mainBox">
                 <header>Projects</header>
 
                 <div className="playBar">

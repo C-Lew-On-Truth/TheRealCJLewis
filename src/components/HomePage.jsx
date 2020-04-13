@@ -1,5 +1,4 @@
 import React from 'react';
-import homeStyles from '../stylesCSS/homepage.module.css';
 import '../stylesCSS/homePage.css';
 
 //Imported Pictures
@@ -79,7 +78,7 @@ class HomePage extends React.Component {
 
                 <div className="bottomFlexBox">
 
-                    <div className={homeStyles.bottomFlexboxItems}>
+                    <div className="bottomFlexboxItems">
 
                         <p style={{ padding: "10px" }}>
 

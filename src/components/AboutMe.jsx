@@ -4,7 +4,7 @@ import '../stylesCSS/aboutMe.css';
 
 //Imported Images
 import Food from '../assets/Food.JPG';
-import Lizard from '../assets/Amilion.JPG';
+import Lizard from '../assets/Amilion.jpg';
 import BShockey from '../assets/BsThrowBack.jpg'
 import Willie from '../assets/willie.jpg'
 

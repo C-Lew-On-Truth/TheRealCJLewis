@@ -23,7 +23,7 @@ class Experience extends React.Component{
     
 
         return(
-           <div>
+           <div class="mainBox">
                <header>Experience</header>
 
                 <div className="playBar">
