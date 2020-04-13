@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import '../stylesCSS/aboutMe.css';
 import { useEffect } from 'react';
-
+import '../stylesCSS/aboutMe.css';
 
 const ImageKey = [
     {
@@ -97,8 +96,6 @@ class AboutMe extends React.Component {
                     <button onClick={this.eventFired}>
                         Do Event
                     </button>
-
-                 
                         
                 </div>
                 

@@ -5,7 +5,8 @@
 .mainBox {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap column;
+    flex-wrap: wrap row;
+    align-items: center;
 }  
 
 
@@ -17,6 +18,7 @@
     text-align: center;
 }
 
+/*
 .playBar {
     display:flex;
     flex-wrap: wrap row; 
@@ -33,9 +35,8 @@ button {
     width: 80px;
     color: white;
 }
-
+*/
 .picHolder {
-    margin: auto;
     margin-bottom: 2%;
     margin-top: 2%;
     width: 30%;

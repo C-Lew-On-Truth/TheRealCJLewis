@@ -16,6 +16,21 @@ import ThrowBack from '../aboutMePics/BsThrowBack.jpg';
 
 class Projects extends React.Component {
 
+    goHome() {
+        window.location.href="/";
+    };
+
+    goAboutMe() {
+        window.location.href="/AboutMe";
+    };
+
+    goExperience() {
+        window.location.href="/Experience"
+    }
+
+    fireEvent3() {
+        alert('Welcome to my Projects!')
+    }
 
     render() {
         const settings = {
@@ -30,9 +45,25 @@ class Projects extends React.Component {
             <div className="projectContainer">
                 <header>Projects</header>
 
-                <div className="projectIntro">
+                <div className="playBar">
+                    <button onClick={this.goHome}>
+                        Go Home
+                    </button>
+
+                    <button onClick={this.goAboutMe}>
+                        About Me
+                    </button>
+
+                    <button onClick={this.goExperience}>
+                        Experience
+                    </button>
+
+                    <button onClick={this.fireEvent3}>
+                        Do Event
+                    </button>
 
                 </div>
+
 
 
                 <Slider {...settings} className="sliderContainer">

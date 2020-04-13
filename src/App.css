@@ -3,6 +3,7 @@
   }
 
 body {
+
     background-color: black;
     color: white;
     font-family: "Comic Sans MS";  
@@ -11,9 +12,22 @@ body {
 
 header {
     padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 50px;
     text-align: center;
-};
+}
+
+
+
+.playBar {
+    display:flex;
+    flex-wrap: wrap row; 
+    margin: auto;
+    width: 30%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
 
 button {
     background-color: black;
