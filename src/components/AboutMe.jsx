@@ -109,13 +109,18 @@ class AboutMe extends React.Component {
                 </div>
                 
                 <div className="introStyle">
-                    Hello This is Clayton Lewis and i want to see if these words will stay in the damn box!
-                    Thats all I really need this element to do, is to keep the words in the fucking square!
-                    This paragraph will be a few sentences about my upbring and background! I'm still working
-                    out the kinks on what I really want to say, but whatever it is will definitely be compelling. 
-                    I look forward to publising this site on GitHub so I can showcase my portfolio to the world!
-                    First thing is first! I need to concentrate on ReactJS. Right now that is the KEY!
-                  
+                   <p style={{margin: "20px"}}>
+                    Before I was introduced to the world of Media and Technology I was a Hockey Player!<br></br>
+                    My hockey career took me all the way to Buffalo State College where I was introduced
+                    to the world of Media! 
+                    After I graduated I decided
+                    to take my career to the next step by relocating to New York City where I currently reside!
+                    I was able to accomplish my goals to becoming employed by a vareity of media corporations like
+                    the NHL, Adobe, Meredith, and New York One News! However, it was at Adobe where I learned about
+                    the practices of programming languages and writing code! The art of learning how to program in itself
+                    can be discouraging and seem impossible, but if you stick with it your vision will indeed become a reality and 
+                    fulfilling that reality makes it all worth it!
+                   </p>
                 </div>
           
                 <div className="picHolder">       

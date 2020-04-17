@@ -4,12 +4,10 @@
     width: 500px;
 }
 
-.projectIntro {
-    height: 200px;
-}
+
 
 .sliderContainer {
-    border: white 5px ridge;
+    text-align: center;
     width: 40%;
     padding: 5px;
     margin-left: auto;
@@ -18,8 +16,8 @@
 }
 
 .slideProjects {
+    border: white ridge 5px;
     width: 100%;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }

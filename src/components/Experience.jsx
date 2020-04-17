@@ -1,7 +1,10 @@
 import React from 'react';
+import Canvas from "./canvas.jsx"
+
 
 
 class Experience extends React.Component{
+  
     
     goHome() {
         window.location.href="/";
@@ -27,6 +30,7 @@ class Experience extends React.Component{
                <header>Experience</header>
 
                 <div className="playBar">
+
                     <button onClick={this.goHome}>
                         Go Home
                     </button>
@@ -41,10 +45,13 @@ class Experience extends React.Component{
 
                     <button onClick={this.fireEvent2}>
                         Do Event
-                    </button>
+                    </button>        
 
                 </div>
-
+                    <div>
+                     
+                    </div>
+            
            </div>
         )
     }

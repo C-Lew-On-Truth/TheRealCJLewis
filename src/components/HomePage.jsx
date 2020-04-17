@@ -44,7 +44,7 @@ class HomePage extends React.Component {
         }
 
         const proImage = {
-            width: "300px",
+            width: "400px",
             height: "300px",
         }
 
@@ -63,19 +63,21 @@ class HomePage extends React.Component {
                             onMouseEnter={this.changePic1}
                             onMouseLeave={this.changePicBack}
                         >
-                            <img src={this.state.picOne} alt=""/>
+                            <img src={this.state.picOne} alt="" />
                         </div>
 
                     </article>
 
-                    <div className="topFlexboxItems" style={{ width: "60%"}}>
-                        <p style={{ padding: "20px" }}>
-                            Hello this is a test and I want to make sure my grid is functioning the right way.
-                    It feels great to be productive while being creative at the same time! 
-                    Learning to code has been a struggle, but I feel that I am learning something new 
-                    everyday! I consider myself a jack of all trades, and have experience in media, 
-                    sports, and the culinary arts! Now I'm expanding my horizon in the world of technology!
-                    I am now learning how to be a professional coder! This site is a glimpse of my skills!
+                    <div className="topFlexboxItems" style={{ width: "60%" }}>
+                        <p style={{ padding: "10px" }}>
+                            HELLO AND WELCOME TO MY PORTFOLIO!<br></br>
+                            In this website you will find some history about myself, my experience,
+                            and some of the video projects I've done in past so please feel free to take a look around!<br></br>
+                            I've stashed some games and quizzes along the way to test out your skills!<br></br>
+                            You may find something worth your wild!<br></br>
+                            PEACE AND LOVE!
+
+
                         </p>
                     </div>
                 </div>
