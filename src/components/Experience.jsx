@@ -1,33 +1,28 @@
 import React from 'react';
-import Canvas from "./canvas.jsx"
+import VideoExpos from '../side-components/VideoExpos.jsx';
+import '../stylesCSS/experience.css';
 
 
-
-class Experience extends React.Component{
-  
-    
+class Experience extends React.Component {
+ 
     goHome() {
-        window.location.href="/";
+        window.location.href = "/";
     }
 
     goAboutMe() {
-        window.location.href="/AboutMe"
+        window.location.href = "/AboutMe"
     }
 
     goProjects() {
-        window.location.href="/Projects"
-    }
-
-    fireEvent2() {
-        alert('Welcome to my Experience!')
+        window.location.href = "/Projects"
     }
 
     render() {
-    
 
-        return(
-           <div class="mainBox">
-               <header>Experience</header>
+    
+        return (
+            <div className="mainBox">
+                <header>Experience</header>
 
                 <div className="playBar">
 
@@ -43,16 +38,18 @@ class Experience extends React.Component{
                         Projects
                     </button>
 
-                    <button onClick={this.fireEvent2}>
-                        Do Event
-                    </button>        
-
                 </div>
-                    <div>
-                     
+
+                <div className="flexBox1">
+
+                    <div className="flexBoxItems1"></div>
+
+                    <div className="flexBoxItems1">
+                      <VideoExpos/>
                     </div>
-            
-           </div>
+                </div>
+
+            </div>
         )
     }
 }

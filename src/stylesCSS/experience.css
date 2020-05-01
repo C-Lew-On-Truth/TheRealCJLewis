@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.flexBox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1% auto;
+    padding-bottom: 2%;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+}
+
+.flexBoxItems1 {
+    text-align: center;
+}
+
+
+video {
+    width: 100%;
+    height: 100%;
+}

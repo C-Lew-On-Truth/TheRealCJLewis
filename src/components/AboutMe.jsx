@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
-import { useEffect } from 'react';
+import React from 'react';
+
+import BetterSlideShow from '../side-components/BetterSlideShow.jsx';
 import '../stylesCSS/aboutMe.css';
 
-//Imported Images
 import Food from '../assets/Food.JPG';
 import Lizard from '../assets/Amilion.jpg';
 import BShockey from '../assets/BsThrowBack.jpg'
 import Willie from '../assets/willie.jpg'
+
 
 const ImageKey = [
     {
@@ -24,38 +25,6 @@ const ImageKey = [
 
 ];
 
-function SlidesFunc( {pictures} ) {
-
-    const [presImg, setPresImg] = useState(0)
-    const { length } = pictures
-    //console.log(presImg)
-    
-    const nextPic = () => {
-        
-        setPresImg( presImg === length - 1 ? 0 : presImg + 1 )
-    }
-
-    useEffect(() => {
-        setTimeout(nextPic, 1000)
-    })
-
-    if(!Array.isArray(pictures) || length <= 0) {
-        return null
-    }
-
-    return(
-        <div>
-             <section className="slider">
-                    {pictures.map((s, i) => (   
-                        
-                    <div className={i === presImg ? "active" : "slide"}>
-                        <img className="image" src={s.image} alt=""/>
-                    </div>
-                    ))}
-                </section>
-        </div>
-    );
-}
 
 class AboutMe extends React.Component {
     constructor() {
@@ -63,7 +32,6 @@ class AboutMe extends React.Component {
         this.state = {
             message: "You have an Alert",      
         }
-            this.eventFired = this.eventFired.bind(this)
    
     }
     goHome() {
@@ -76,10 +44,6 @@ class AboutMe extends React.Component {
 
     goProjects() {
         window.location.href="/Projects"
-    }
-
-    eventFired() {
-       alert('You did something buddy') 
     }
 
     render() {
@@ -101,16 +65,12 @@ class AboutMe extends React.Component {
                     <button onClick={this.goProjects}>
                         Projects
                     </button>   
-
-                    <button onClick={this.eventFired}>
-                        Do Event
-                    </button>
                         
                 </div>
                 
                 <div className="introStyle">
                    <p style={{margin: "20px"}}>
-                    Before I was introduced to the world of Media and Technology I was a Hockey Player!<br></br>
+                    Before I was introduced to the world of Media and Technology I was a Hockey Player!
                     My hockey career took me all the way to Buffalo State College where I was introduced
                     to the world of Media! 
                     After I graduated I decided
@@ -124,7 +84,7 @@ class AboutMe extends React.Component {
                 </div>
           
                 <div className="picHolder">       
-                    <SlidesFunc pictures={ImageKey} />
+                    <BetterSlideShow pictures={ImageKey} />
                 </div>
            
             </div>

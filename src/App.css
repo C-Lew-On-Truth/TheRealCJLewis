@@ -19,7 +19,7 @@ header {
 .mainBox {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap row;
+    flex-wrap: wrap column;
     align-items: center;
     padding-bottom: 10px;
 } 
@@ -27,7 +27,7 @@ header {
 .playBar {
     display:flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 25%;
     margin-top: 5px;
     margin-bottom: 10px; 
     justify-content: space-evenly;
