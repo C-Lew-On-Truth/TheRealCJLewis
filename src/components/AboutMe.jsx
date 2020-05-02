@@ -28,27 +28,27 @@ const ImageKey = [
 
 class AboutMe extends React.Component {
     constructor() {
-        super() 
+        super()
         this.state = {
-            message: "You have an Alert",      
+            message: "You have an Alert",
         }
-   
+
     }
     goHome() {
-        window.location.href="/";
+        window.location.href = "/";
     }
 
     goExperience() {
-        window.location.href="/Experience"
+        window.location.href = "/Experience"
     }
 
     goProjects() {
-        window.location.href="/Projects"
+        window.location.href = "/Projects"
     }
 
     render() {
 
-        return(
+        return (
             <div className="mainBox">
                 <header>About Me</header>
 
@@ -64,29 +64,36 @@ class AboutMe extends React.Component {
 
                     <button onClick={this.goProjects}>
                         Projects
-                    </button>   
-                        
+                    </button>
+
                 </div>
-                
-                <div className="introStyle">
-                   <p style={{margin: "20px"}}>
-                    Before I was introduced to the world of Media and Technology I was a Hockey Player!
-                    My hockey career took me all the way to Buffalo State College where I was introduced
-                    to the world of Media! 
-                    After I graduated I decided
-                    to take my career to the next step by relocating to New York City where I currently reside!
-                    I was able to accomplish my goals to becoming employed by a vareity of media corporations like
-                    the NHL, Adobe, Meredith, and New York One News! However, it was at Adobe where I learned about
-                    the practices of programming languages and writing code! The art of learning how to program in itself
-                    can be discouraging and seem impossible, but if you stick with it your vision will indeed become a reality and 
-                    fulfilling that reality makes it all worth it!
+
+                <div className="mainSection">
+
+                    <div className="sectionItems" >
+                        <p style={{ margin: "20px" }}>
+                            Before I was introduced to the world of Media and Technology I was a Hockey Player!
+                            My hockey career took me all the way to Buffalo State College where I was introduced
+                            to the world of Media!
+                            After I graduated I decided
+                            to take my career to the next step by relocating to New York City where I currently reside!
+                            I was able to accomplish my goals to becoming employed by a vareity of media corporations like
+                            the NHL, Adobe, Meredith, and New York One News! However, it was at Adobe where I learned about
+                            the practices of programming languages and writing code! The art of learning how to program in itself
+                            can be discouraging and seem impossible, but if you stick with it your vision will indeed become a reality and
+                            fulfilling that reality makes it all worth it!
+                            
+
+                            
                    </p>
+                    </div>
+
+                    <div className="sectionItems">
+                        <BetterSlideShow pictures={ImageKey} />
+                    </div>
+
                 </div>
-          
-                <div className="picHolder">       
-                    <BetterSlideShow pictures={ImageKey} />
-                </div>
-           
+
             </div>
         )
     }

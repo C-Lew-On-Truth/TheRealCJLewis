@@ -2,6 +2,21 @@
     box-sizing: border-box;
   }
 
+.mainSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% auto;
+    padding-bottom: 5%;
+} 
+
+.sectionItems {
+    width: 35%;
+}
+
+/*
 .introStyle {
     border: dashed 5px white;
     width: 50%;
@@ -15,6 +30,7 @@
     width: 30%;
     
 }
+*/
 
 .container {
     padding-top: 20px;
@@ -41,5 +57,6 @@
 .image {
     position: absolute;
     width: 100%;  
-    border: ridge white 4px;
+    height: 400px;
+    border: dashed white 4px;
 }
