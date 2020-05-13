@@ -1,4 +1,34 @@
-.carousel {
-    width: 400;
-    height: 400;
+video {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
 }
+
+.slider {
+    margin: 9% auto;
+}
+
+.slider-items {
+    text-align: center;
+}
+
+.backArrow {
+    position: absolute;
+    top: 50%;
+    left: -15%;
+}
+
+.nextArrow {
+    position: absolute;
+    top: 50%;
+    right: -15%;
+}
+
+.inactive {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+

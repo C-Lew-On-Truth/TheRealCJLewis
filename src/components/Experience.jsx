@@ -1,5 +1,4 @@
 import React from 'react';
-import VideoExpos from '../side-components/VideoExpos.jsx';
 import '../stylesCSS/experience.css';
 
 
@@ -18,10 +17,9 @@ class Experience extends React.Component {
     }
 
     render() {
-
     
         return (
-            <div className="mainBox">
+            <div className="expoPage">
                 <header>Experience</header>
 
                 <div className="playBar">
@@ -37,17 +35,8 @@ class Experience extends React.Component {
                     <button onClick={this.goProjects}>
                         Projects
                     </button>
-
                 </div>
 
-                <div className="flexBox1">
-
-                    <div className="flexBoxItems1"></div>
-
-                    <div className="flexBoxItems1">
-                      <VideoExpos/>
-                    </div>
-                </div>
 
             </div>
         )

@@ -4,7 +4,9 @@ import HomePage from './components/HomePage.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
-import VideoExpos from './side-components/VideoExpos.jsx';
+//import VideoExpos from './side-components/VideoExpos.jsx';
+//import VideoCarousel from './side-components/VideoCarousel.jsx';
+
 
 
 

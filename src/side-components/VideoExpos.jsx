@@ -1,10 +1,13 @@
 import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
+import '../stylesCSS/experience.css';
 import 'react-awesome-slider/dist/styles.css';
+
 
 import SundayVid from '../assets/Sunday-Skate-Movie.mp4';
 import BuffaloDemo from '../assets/Channel-4-Sabres-PKG.mp4';
 import BuffSpyVid from '../assets/SPOR_original.mp4'
+
 
 
 class VideoExpos extends React.Component {
@@ -26,6 +29,7 @@ class VideoExpos extends React.Component {
     componentDidMount() {
         this.onSunVidPlay();
         this.onBuffVidPlay()
+      this.onBsSpyVidPlay()
     }
 
     onSunVidPlay = () => {
@@ -36,8 +40,7 @@ class VideoExpos extends React.Component {
         )
         console.log(this.state.sunVidPlaying);
         console.log('Sunday Skate video is playing');
-
-
+       
 
     }
 
@@ -66,13 +69,11 @@ class VideoExpos extends React.Component {
 
     render() {
         const slideHolder = {
-            width: "375px",
-
+            width: '100%',
         };
 
-        const clipStyle = {
-            textAlign: "center",
-        };
+     
+
 
         return (
 
@@ -80,20 +81,20 @@ class VideoExpos extends React.Component {
 
                 <AwesomeSlider
                     bullets={false}
-
                 >
-                    <div style={clipStyle}>
-                            
+                    <div>
+                        <h1>Sunday Skate Video</h1>
                         <video
                             src={SundayVid}
                             ref={this.sunVid}
                             onPlay={this.onSunVidPlay}
                             controls
                         />
-                        
+
                     </div>
 
-                    <div style={clipStyle}>
+                    <div>
+
                         <video
                             src={BuffaloDemo}
                             ref={this.buffVid}
@@ -102,7 +103,7 @@ class VideoExpos extends React.Component {
                         />
                     </div>
 
-                    <div style={clipStyle}>
+                    <div>
                         <video
                             src={BuffSpyVid}
                             ref={this.bsSpyVid}
@@ -111,6 +112,7 @@ class VideoExpos extends React.Component {
                         />
                     </div>
                 </AwesomeSlider>
+
             </div>
 
         )

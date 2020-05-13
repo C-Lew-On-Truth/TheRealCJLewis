@@ -73,7 +73,7 @@ class HomePage extends React.Component {
                             HELLO AND WELCOME TO MY PORTFOLIO!<br></br>
                             In this website you will find some history about myself, my experience,
                             and some of the video projects I've done in past so please feel free to take a look around!<br></br>
-                            I've stashed some games and quizzes along the way to test out your skills!<br></br>
+                         
                             You may find something worth your wild!<br></br>
                             PEACE AND LOVE!
 

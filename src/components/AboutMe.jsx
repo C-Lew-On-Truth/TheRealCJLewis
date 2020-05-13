@@ -1,13 +1,11 @@
 import React from 'react';
-
-import BetterSlideShow from '../side-components/BetterSlideShow.jsx';
+import AutoSlides from '../side-components/AutoSlides.jsx';
 import '../stylesCSS/aboutMe.css';
 
 import Food from '../assets/Food.JPG';
 import Lizard from '../assets/Amilion.jpg';
 import BShockey from '../assets/BsThrowBack.jpg'
 import Willie from '../assets/willie.jpg'
-
 
 const ImageKey = [
     {
@@ -24,7 +22,6 @@ const ImageKey = [
     }
 
 ];
-
 
 class AboutMe extends React.Component {
     constructor() {
@@ -67,11 +64,11 @@ class AboutMe extends React.Component {
                     </button>
 
                 </div>
-
+   
                 <div className="mainSection">
 
-                    <div className="sectionItems" >
-                        <p style={{ margin: "20px" }}>
+                    <div className="sectionItems" style={{border:"white dashed 5px"}}>
+                        <p style={{ padding: "20px"}}>
                             Before I was introduced to the world of Media and Technology I was a Hockey Player!
                             My hockey career took me all the way to Buffalo State College where I was introduced
                             to the world of Media!
@@ -83,13 +80,11 @@ class AboutMe extends React.Component {
                             can be discouraging and seem impossible, but if you stick with it your vision will indeed become a reality and
                             fulfilling that reality makes it all worth it!
                             
-
-                            
-                   </p>
+                        </p>
                     </div>
 
                     <div className="sectionItems">
-                        <BetterSlideShow pictures={ImageKey} />
+                        <AutoSlides pictures={ImageKey} />
                     </div>
 
                 </div>
@@ -98,7 +93,5 @@ class AboutMe extends React.Component {
         )
     }
 }
-
-
 
 export default AboutMe

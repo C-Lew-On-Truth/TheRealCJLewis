@@ -1,24 +1,15 @@
-* {
-    box-sizing: border-box;
-}
-
-.flexBox1 {
+.expoPage {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 1% auto;
-    padding-bottom: 2%;
-    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap column;
     align-items: center;
-    width: 90%;
-}
-
-.flexBoxItems1 {
-    text-align: center;
-}
+    padding-bottom: 10px;
+} 
 
 
-video {
-    width: 100%;
+.expoItems {
+    width: 40%;
     height: 100%;
+    text-align: center;
+    border: white dashed 5px;
 }
