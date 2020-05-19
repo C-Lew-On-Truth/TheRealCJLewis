@@ -5,7 +5,7 @@ import VideoCarousel from '../side-components/VideoCarousel.jsx';
 //import VideoExpos from '../side-components/VideoExpos.jsx';
 
 const navPStyles = {color: "green"};
-const projectPage = props => <span className="globalNavBar">{props.style}</span>
+const ProjectPage = props => <span className="globalNavBar">{props.style}</span>
 
 
 class Projects extends React.Component {
@@ -21,7 +21,7 @@ class Projects extends React.Component {
                 goHome="Go Home"
                 goAboutMe="About Me"
                 goExpo="Experience"
-                goProjects={projectPage({style: "Projects"})}
+                goProjects={<ProjectPage style="Projects"/>}
                 />
 
                 <div className="projectBox">

@@ -3,7 +3,7 @@ import NavBar from '../side-components/NavBar.jsx';
 import '../stylesCSS/experience.css';
 
 
-const expoPage = props => <span className="globalNavBar">{props.style}</span>
+const ExpoPage = props => <span className="globalNavBar">{props.style}</span>
 
 class Experience extends React.Component {
     constructor(props) {
@@ -23,7 +23,7 @@ class Experience extends React.Component {
                 <NavBar 
                     goHome="Go Home"
                     goAboutMe="About Me"
-                    goExpo={expoPage({style:'Experience'})}
+                    goExpo={<ExpoPage style="Experience"/>}
                     goProjects="Projects"
                 />
 
