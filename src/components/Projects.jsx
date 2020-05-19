@@ -1,21 +1,10 @@
 import React from "react";
 import '../stylesCSS/project.css';
+import NavBar from '../side-components/NavBar.jsx';
 import VideoCarousel from '../side-components/VideoCarousel.jsx';
 //import VideoExpos from '../side-components/VideoExpos.jsx';
 
 class Projects extends React.Component {
-
-    goHome() {
-        window.location.href = "/";
-    };
-
-    goAboutMe() {
-        window.location.href = "/AboutMe";
-    };
-
-    goExperience() {
-        window.location.href = "/Experience"
-    }
 
     render() {
 
@@ -24,19 +13,7 @@ class Projects extends React.Component {
             <div className="projectContainer">
                 <header>Projects</header>
 
-                <div className="playBar">
-                    <button onClick={this.goHome}>
-                        Go Home
-                    </button>
-
-                    <button onClick={this.goAboutMe}>
-                        About Me
-                    </button>
-
-                    <button onClick={this.goExperience}>
-                        Experience
-                    </button>
-                </div>
+                <NavBar/>
 
                 <div className="projectBox">
                     <div className="projectBoxItems1">

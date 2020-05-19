@@ -1,73 +1,22 @@
 import React from 'react';
+import NavBar from '../side-components/NavBar.jsx';
 import AutoSlides from '../side-components/AutoSlides.jsx';
 import '../stylesCSS/aboutMe.css';
-
-import Food from '../assets/Food.JPG';
-import Lizard from '../assets/Amilion.jpg';
-import BShockey from '../assets/BsThrowBack.jpg'
-import Willie from '../assets/willie.jpg'
-
-const ImageKey = [
-    {
-        image: Food
-    },
-    {
-        image: Lizard
-    },
-    {
-        image: BShockey
-    },
-    {
-        image: Willie
-    }
-
-];
+import AutoPics from '../side-components/AutoPics.jsx';
 
 class AboutMe extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-            message: "You have an Alert",
-        }
-
-    }
-    goHome() {
-        window.location.href = "/";
-    }
-
-    goExperience() {
-        window.location.href = "/Experience"
-    }
-
-    goProjects() {
-        window.location.href = "/Projects"
-    }
-
+  
     render() {
 
         return (
             <div className="mainBox">
                 <header>About Me</header>
 
-                <div className="playBar">
-
-                    <button onClick={this.goHome}>
-                        Go Home
-                    </button>
-
-                    <button onClick={this.goExperience}>
-                        Experience
-                    </button>
-
-                    <button onClick={this.goProjects}>
-                        Projects
-                    </button>
-
-                </div>
+                <NavBar/>
    
                 <div className="mainSection">
 
-                    <div className="sectionItems" style={{border:"white dashed 5px"}}>
+                    <div className="sectionItems aboutMe" style={{border:"white dashed 5px"}}>
                         <p style={{ padding: "20px"}}>
                             Before I was introduced to the world of Media and Technology I was a Hockey Player!
                             My hockey career took me all the way to Buffalo State College where I was introduced
@@ -83,8 +32,8 @@ class AboutMe extends React.Component {
                         </p>
                     </div>
 
-                    <div className="sectionItems">
-                        <AutoSlides pictures={ImageKey} />
+                    <div className="sectionItems autoSlides">
+                        <AutoSlides pictures={AutoPics} />
                     </div>
 
                 </div>

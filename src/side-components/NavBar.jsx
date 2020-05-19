@@ -1,7 +1,8 @@
 import React from 'react';
+import '../stylesCSS/navStyle.css';
 
-function NavBar() {
-
+class NavBar extends React.Component {
+    
     goHome = () => {
         window.location.href = "/";
     }
@@ -10,29 +11,41 @@ function NavBar() {
         window.location.href = "/AboutMe"
     }
 
+    goExperience = () => {
+        window.location.href = "/Experience"
+
+    }
+
     goProjects = () => {
         window.location.href = "/Projects"
-    }
+    }    
+
+    render() {
+        
+        return (
+           
+                <div className="navBar">
     
-    return (
-        <div className="mainBox">
-            <div className="playBar">
+                    <button onClick={this.goHome}>
+                        {this.props.goHome}
+                    </button>
+    
+                    <button onClick={this.goAboutMe}>
+                        {this.props.goAboutMe}
+                    </button>
 
-                <button onClick={this.goHome}>
-                    Go Home
-                </button>
+                    <button onClick={this.goExperience} >
+                        {this.props.goExperience}
+                    </button>
+    
+                    <button onClick={this.goProjects}>
+                        {this.props.goProjects}
+                    </button>
 
-                <button onClick={this.goAboutMe}>
-                    About Me
-                </button>
-
-                <button onClick={this.goProjects}>
-                    Projects
-                </button>
-
-            </div>
-        </div>
-    )
+                </div>
+    
+        )
+    }
 }
 
 export default NavBar

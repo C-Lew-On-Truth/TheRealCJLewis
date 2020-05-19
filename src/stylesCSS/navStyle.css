@@ -1,0 +1,25 @@
+.navBar {
+    display:flex;
+    flex-direction: row;
+    flex-flow: wrap row;
+    justify-content: center;
+    border: white dashed 5px;
+    margin: 1% auto;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    font-family: "Comic Sans MS"; 
+    border: 5px ridge white;
+    font-size: 25px;
+    color: white;
+}
+
+button:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+

@@ -1,14 +1,12 @@
 import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
-import '../stylesCSS/experience.css';
-import 'react-awesome-slider/dist/styles.css';
+import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
+
 
 
 import SundayVid from '../assets/Sunday-Skate-Movie.mp4';
 import BuffaloDemo from '../assets/Channel-4-Sabres-PKG.mp4';
 import BuffSpyVid from '../assets/SPOR_original.mp4'
-
-
 
 class VideoExpos extends React.Component {
     constructor(props) {
@@ -80,7 +78,7 @@ class VideoExpos extends React.Component {
             <div style={slideHolder}>
 
                 <AwesomeSlider
-                    bullets={false}
+                   cssModule={AwesomeSliderStyles}
                 >
                     <div>
                         <h1>Sunday Skate Video</h1>
