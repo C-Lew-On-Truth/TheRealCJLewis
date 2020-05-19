@@ -1,6 +1,6 @@
 import React, { useState }  from 'react';
 import { useEffect } from 'react';
-import AutoPics from '../side-components/AutoPics.jsx';
+//import AutoPics from '../side-components/AutoPics.jsx';
 import '../stylesCSS/autoStyles.css'
 
 function AutoSlides( {pictures} ) {

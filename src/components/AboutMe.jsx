@@ -4,6 +4,8 @@ import AutoSlides from '../side-components/AutoSlides.jsx';
 import '../stylesCSS/aboutMe.css';
 import AutoPics from '../side-components/AutoPics.jsx';
 
+const aboutMePage = props => <span className="globalNavBar">{props.style}</span>
+
 class AboutMe extends React.Component {
   
     render() {
@@ -12,7 +14,12 @@ class AboutMe extends React.Component {
             <div className="mainBox">
                 <header>About Me</header>
 
-                <NavBar/>
+                <NavBar
+                goHome="Go Home"
+                goAboutMe={aboutMePage({style: "About Me"})}
+                goExpo="Experience"
+                goProjects="Projects"
+                />
    
                 <div className="mainSection">
 

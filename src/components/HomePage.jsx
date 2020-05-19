@@ -2,11 +2,11 @@ import React from 'react';
 import '../stylesCSS/homePage.css';
 
 //Imported Pictures
-import QuestionMark from '../assets/questionMark.jpg';
-import Exclamation from '../assets/exclamationMark.jpg';
-import SmileyFace from '../assets/smileyFace2.jpg';
-import ProfilePic from '../assets/profile-pic.jpg';
-import Cheesin from '../assets/StraightCheesin.jpg';
+import QuestionMark from '../pictures/questionMark.jpg';
+import Exclamation from '../pictures/exclamationMark.jpg';
+import SmileyFace from '../pictures/smileyFace2.jpg';
+import ProfilePic from '../pictures/profile-pic.jpg';
+import Cheesin from '../pictures/StraightCheesin.jpg';
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -56,24 +56,23 @@ class HomePage extends React.Component {
 
                 <div className="topFlexBox">
 
-                    <article className="topFlexboxItems">
+                    <div className="topFlexboxItems">
 
-                        <div
+                        <section
                             style={proImage}
                             onMouseEnter={this.changePic1}
                             onMouseLeave={this.changePicBack}
                         >
                             <img src={this.state.picOne} alt="" />
-                        </div>
+                        </section>
 
-                    </article>
+                    </div>
 
                     <div className="topFlexboxItems" style={{ width: "60%" }}>
                         <p style={{ padding: "10px" }}>
                             HELLO AND WELCOME TO MY PORTFOLIO!<br></br>
                             In this website you will find some history about myself, my experience,
-                            and some of the video projects I've done in past so please feel free to take a look around!<br></br>
-                         
+                            and some of the video projects I've done in the past so please feel free to take a look around!<br></br>
                             You may find something worth your wild!<br></br>
                             PEACE AND LOVE!
 

@@ -35,7 +35,7 @@ class NavBar extends React.Component {
                     </button>
 
                     <button onClick={this.goExperience} >
-                        {this.props.goExperience}
+                        {this.props.goExpo}
                     </button>
     
                     <button onClick={this.goProjects}>

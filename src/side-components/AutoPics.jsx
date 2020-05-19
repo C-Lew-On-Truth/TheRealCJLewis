@@ -1,7 +1,7 @@
-import Food from '../assets/Food.JPG';
-import Lizard from '../assets/Amilion.jpg';
-import BShockey from '../assets/BsThrowBack.jpg'
-import Willie from '../assets/willie.jpg'
+import Food from '../pictures/Food.JPG';
+import Lizard from '../pictures/Amilion.jpg';
+import BShockey from '../pictures/BsThrowBack.jpg'
+import Willie from '../pictures/willie.jpg'
 
 export default  [
     {

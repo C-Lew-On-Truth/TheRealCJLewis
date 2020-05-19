@@ -1,6 +1,6 @@
-import SundayVid from '../assets/Sunday-Skate-Movie.mp4';
-import BuffaloDemo from '../assets/Channel-4-Sabres-PKG.mp4';
-import BuffSpyVid from '../assets/SPOR_original.mp4'
+import SundayVid from '../videos/Sunday-Skate-Movie.mp4';
+import BuffaloDemo from '../videos/Channel-4-Sabres-PKG.mp4';
+import BuffSpyVid from '../videos/SPOR_original.mp4'
 
 export default [
     {

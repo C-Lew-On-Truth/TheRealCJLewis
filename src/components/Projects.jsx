@@ -4,6 +4,10 @@ import NavBar from '../side-components/NavBar.jsx';
 import VideoCarousel from '../side-components/VideoCarousel.jsx';
 //import VideoExpos from '../side-components/VideoExpos.jsx';
 
+const navPStyles = {color: "green"};
+const projectPage = props => <span className="globalNavBar">{props.style}</span>
+
+
 class Projects extends React.Component {
 
     render() {
@@ -13,7 +17,12 @@ class Projects extends React.Component {
             <div className="projectContainer">
                 <header>Projects</header>
 
-                <NavBar/>
+                <NavBar
+                goHome="Go Home"
+                goAboutMe="About Me"
+                goExpo="Experience"
+                goProjects={projectPage({style: "Projects"})}
+                />
 
                 <div className="projectBox">
                     <div className="projectBoxItems1">
