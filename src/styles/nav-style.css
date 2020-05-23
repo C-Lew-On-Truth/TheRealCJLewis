@@ -3,7 +3,6 @@
     flex-direction: row;
     flex-flow: wrap row;
     justify-content: center;
-    border: white dashed 5px;
     margin: 1% auto;
 }
 

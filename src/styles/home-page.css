@@ -2,7 +2,8 @@
     box-sizing: border-box;
   }
 
-.topFlexBox {
+/* Top Box Home-Page Code */
+.topBox {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap; 
@@ -10,14 +11,23 @@
     justify-content: space-evenly;
 }
 
-.topFlexboxItems {
-    border: white 5px dashed; 
+.topBoxItems {
+    border: white 2px dashed; 
     text-align: center;
-    margin: 2% auto;
+    margin: 1% auto;
     font-size: 20px;
 }
 
-.bottomFlexBox {
+.top1 {
+    width: 350px; 
+}
+
+.top2 {
+    width: 60%;
+}
+
+/* Bottom Home-Page Box Code */
+.bottomBox {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap; 
@@ -26,12 +36,17 @@
     font-size: 15px;
 }
 
-.bottomFlexboxItems {
-    border: white 5px dashed; 
+.bottomBoxItems {
+    border: white 2px dashed; 
     text-align: center;
-    margin: 2% auto;
+    margin: 1% auto;
 }
 
+.box2 {
+    width: 60%
+}
+
+/* Bottom NavBox Code */
 .selectFlexBox {
     display: flex;
     flex-direction: row;
@@ -47,4 +62,11 @@
  }
 
 
+ .imageSwag {
+    margin-top: 4px;
+    border: white ridge 2px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
 

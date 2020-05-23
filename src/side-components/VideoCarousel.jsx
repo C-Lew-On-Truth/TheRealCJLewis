@@ -1,10 +1,6 @@
 import React from 'react';
 import VideoClips from '../side-components/VideoClips.jsx';
-import '../stylesCSS/carouselStyle.css';
-
-
-
-
+import '../styles/carousel-style.css';
 
 class VideoCarousel extends React.Component {
     constructor(props) {

@@ -1,7 +1,7 @@
 import React, { useState }  from 'react';
 import { useEffect } from 'react';
 //import AutoPics from '../side-components/AutoPics.jsx';
-import '../stylesCSS/autoStyles.css'
+import '../styles/auto-styles.css'
 
 function AutoSlides( {pictures} ) {
 

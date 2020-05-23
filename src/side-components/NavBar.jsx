@@ -1,20 +1,13 @@
 import React from 'react';
-import '../stylesCSS/navStyle.css';
+import '../styles/nav-style.css';
 
 class NavBar extends React.Component {
     
-    goHome = () => {
-        window.location.href = "/";
-    }
+    goHome = () => { window.location.href = "/" }
 
-    goAboutMe = () => {
-        window.location.href = "/AboutMe"
-    }
+    goAboutMe = () => { window.location.href = "/AboutMe" }
 
-    goExperience = () => {
-        window.location.href = "/Experience"
-
-    }
+    goExperience = () => { window.location.href = "/Experience" }
 
     goProjects = () => {
         window.location.href = "/Projects"

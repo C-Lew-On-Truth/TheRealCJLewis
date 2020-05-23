@@ -1,10 +1,10 @@
 import React from 'react';
 import NavBar from '../side-components/NavBar.jsx';
 import AutoSlides from '../side-components/AutoSlides.jsx';
-import '../stylesCSS/aboutMe.css';
+import '../styles/about-me.css';
 import AutoPics from '../side-components/AutoPics.jsx';
 
-const AboutMePage = props => <span className="globalNavBar">{props.style}</span>
+const AboutMePage = props => <span className="globalNavBar">{props.page}</span>
 
 class AboutMe extends React.Component {
   
@@ -16,14 +16,14 @@ class AboutMe extends React.Component {
 
                 <NavBar
                 goHome="Go Home"
-                goAboutMe={<AboutMePage style="About Me"/>}
+                goAboutMe={<AboutMePage page="About Me"/>}
                 goExpo="Experience"
                 goProjects="Projects"
                 />
    
                 <div className="mainSection">
 
-                    <div className="sectionItems aboutMe" style={{border:"white dashed 5px"}}>
+                    <div className="sectionItems aboutMe">
                         <p style={{ padding: "20px"}}>
                             Before I was introduced to the world of Media and Technology I was a Hockey Player!
                             My hockey career took me all the way to Buffalo State College where I was introduced

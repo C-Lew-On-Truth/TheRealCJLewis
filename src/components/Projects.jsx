@@ -1,12 +1,10 @@
 import React from "react";
-import '../stylesCSS/project.css';
+import '../styles/project.css';
 import NavBar from '../side-components/NavBar.jsx';
 import VideoCarousel from '../side-components/VideoCarousel.jsx';
 //import VideoExpos from '../side-components/VideoExpos.jsx';
 
-const navPStyles = {color: "green"};
-const ProjectPage = props => <span className="globalNavBar">{props.style}</span>
-
+const ProjectPage = props => <span className="globalNavBar">{props.page}</span>
 
 class Projects extends React.Component {
 
@@ -21,10 +19,11 @@ class Projects extends React.Component {
                 goHome="Go Home"
                 goAboutMe="About Me"
                 goExpo="Experience"
-                goProjects={<ProjectPage style="Projects"/>}
+                goProjects={<ProjectPage page="Projects"/>}
                 />
 
                 <div className="projectBox">
+                    
                     <div className="projectBoxItems1">
                         <h3>Sunday Skate Video</h3>
                         <p>
