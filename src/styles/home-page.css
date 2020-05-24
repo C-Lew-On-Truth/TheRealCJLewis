@@ -20,6 +20,7 @@
 
 .top1 {
     width: 350px; 
+    height: 350px;
 }
 
 .top2 {
@@ -57,7 +58,6 @@
  
 }
  img {
-     height: 100%;
      width: 100%;
  }
 

@@ -10,11 +10,11 @@ class HomePageTopBox extends React.Component {
         this.state = {
             picOne: ProfilePic,
         }
-        this.changePic1 = this.changePic1.bind(this)
+        this.changePic = this.changePic.bind(this)
         this.changePicBack = this.changePicBack.bind(this)
     }
 
-    changePic1() {
+    changePic =() => {
         this.setState(
             {
                 picOne: Cheesin
@@ -22,7 +22,7 @@ class HomePageTopBox extends React.Component {
         )
     }
 
-    changePicBack() {
+    changePicBack =() => {
         this.setState(
             {
                 picOne: ProfilePic
@@ -33,16 +33,15 @@ class HomePageTopBox extends React.Component {
 
     render() {
         return (
-            <div className="topBox">
-                <div className="topBoxItems top1">
-
-                    <section
-                        onMouseEnter={this.changePic1}
-                        onMouseLeave={this.changePicBack}
-                    >
-                        <img src={this.state.picOne} alt="" />
-                    </section>
-
+            <div 
+            className="topBox"
+            >
+                <div 
+                className="topBoxItems top1"
+                onMouseEnter={this.changePic}
+                onMouseLeave={this.changePicBack}
+                >
+                        <img src={this.state.picOne} alt=""/>
                 </div>
 
                 <div className="topBoxItems top2">
