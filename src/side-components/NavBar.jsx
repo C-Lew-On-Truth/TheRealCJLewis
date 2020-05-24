@@ -5,11 +5,11 @@ class NavBar extends React.Component {
     
     goHome = () => { window.location.href = "/TheRealCJLewis" }
 
-    goAboutMe = () => { window.location.href = "/AboutMe" }
+    goAboutMe = () => { window.location.href = "/TheRealCJLewis/AboutMe" }
 
-    goExperience = () => { window.location.href = "/Experience" }
+    goExperience = () => { window.location.href = "/TheRealCJLewis/Experience" }
 
-    goProjects = () => { window.location.href = "/Projects" }    
+    goProjects = () => { window.location.href = "/TheRealCJLewis/Projects" }    
 
     render() {
         

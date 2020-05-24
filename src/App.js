@@ -4,20 +4,16 @@ import HomePage from './components/HomePage.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
-//import VideoExpos from './side-components/VideoExpos.jsx';
-//import AwesomeCarousel from './side-components/AwesomeCarousel.jsx';
-//import VideoCarousel from './side-components/VideoCarousel.jsx';
-
 
 
 function App() {
   return (
     <div>
       <Router>
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/AboutMe" component={AboutMe} />
-        <Route exact path="/Experience" component={Experience} />
-        <Route exact path="/Projects" component={Projects} />
+        <Route exact path="/TheRealCJLewis" component={HomePage}/>
+        <Route exact path="/TheRealCJLewis/AboutMe" component={AboutMe}/>
+        <Route exact path="/TheRealCJLewis/Experience" component={Experience}/>
+        <Route exact path="/TheRealCJLewis/Projects" component={Projects}/>
       </Router>
     </div>
   );
