@@ -3,7 +3,7 @@ import '../styles/nav-style.css';
 
 class NavBar extends React.Component {
     
-    goHome = () => { window.location.href = "/" }
+    goHome = () => { window.location.href = "/TheRealCJLewis" }
 
     goAboutMe = () => { window.location.href = "/AboutMe" }
 
