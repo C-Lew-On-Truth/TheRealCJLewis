@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Route exact path="/TheRealCJLewis" component={HomePage} />
+        <Route exact path="/" component={HomePage} />
         <Route exact path="/AboutMe" component={AboutMe} />
         <Route exact path="/Experience" component={Experience} />
         <Route exact path="/Projects" component={Projects} />
