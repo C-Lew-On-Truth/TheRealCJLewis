@@ -2,7 +2,7 @@
   "name": "the-real-cj-lewis",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://C-Lew-On-Truth/github.io/TheRealCJLewis/",
+  "homepage": "http://c-lew-on-truth/github.io/TheRealCJLewis/",
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.13.40",
     "@testing-library/jest-dom": "^4.2.4",
