@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-flow: wrap row;
     justify-content: center;
-    margin: 1% auto;
+    margin: 0 auto;
 }
 
 button {

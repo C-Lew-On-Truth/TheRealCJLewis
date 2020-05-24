@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../side-components/NavBar.jsx';
-import '../stylesCSS/experience.css';
+import '../styles/experience.css';
 
 
 const ExpoPage = props => <span className="globalNavBar">{props.page}</span>

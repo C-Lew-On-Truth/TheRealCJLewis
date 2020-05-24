@@ -1,8 +1,8 @@
 import React from "react";
 import '../styles/project.css';
 import NavBar from '../side-components/NavBar.jsx';
-import VideoCarousel from '../side-components/VideoCarousel.jsx';
-//import VideoExpos from '../side-components/VideoExpos.jsx';
+//import VideoCarousel from '../side-components/VideoCarousel.jsx';
+import VideoExpos from '../side-components/VideoExpos.jsx';
 
 const ProjectPage = props => <span className="globalNavBar">{props.page}</span>
 
@@ -12,8 +12,8 @@ class Projects extends React.Component {
 
         return (
 
-            <div className="projectContainer">
-                <header>Projects</header>
+            <div>
+                <header onClick={() => {alert(window.innerHeight)}}>Projects</header>
 
                 <NavBar
                 goHome="Go Home"
@@ -23,7 +23,7 @@ class Projects extends React.Component {
                 />
 
                 <div className="projectBox">
-                    
+                    {/*
                     <div className="projectBoxItems1">
                         <h3>Sunday Skate Video</h3>
                         <p>
@@ -48,6 +48,8 @@ class Projects extends React.Component {
                     <div className="projectBoxItems2">
                         <VideoCarousel />
                     </div>
+                    */}
+                    <VideoExpos/>
                 </div>
 
             </div >
