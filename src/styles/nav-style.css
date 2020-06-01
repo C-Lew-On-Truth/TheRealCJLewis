@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
 
-button {
+.button {
     height: 50px;
     width: 200px;
     background-color: black;
@@ -14,9 +14,11 @@ button {
     border: 5px ridge white;
     font-size: 25px;
     color: white;
+    text-decoration: none;
+    text-align: center;
 }
 
-button:hover {
+.button:hover {
     background: white;
     color: black;
     cursor: pointer;

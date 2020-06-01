@@ -1,15 +1,8 @@
 import React from 'react';
 import '../styles/nav-style.css';
+import { Link } from 'react-router-dom';
 
 class NavBar extends React.Component {
-    
-    goHome = () => { window.location.href = "/TheRealCJLewis" }
-
-    goAboutMe = () => { window.location.href = "/AboutMe" }
-
-    goExperience = () => { window.location.href = "/Experience" }
-
-    goProjects = () => { window.location.href = "/Projects" }    
 
     render() {
         
@@ -17,21 +10,21 @@ class NavBar extends React.Component {
            
                 <div className="navBar">
     
-                    <button onClick={this.goHome}>
+                    <Link className="button" to="/TheRealCJLewis">
                         {this.props.goHome}
-                    </button>
+                    </Link>
     
-                    <button onClick={this.goAboutMe}>
+                    <Link className="button" to="/AboutMe">
                         {this.props.goAboutMe}
-                    </button>
+                    </Link>
 
-                    <button onClick={this.goExperience} >
+                    <Link className="button" to="/Experience">
                         {this.props.goExpo}
-                    </button>
+                    </Link>
     
-                    <button onClick={this.goProjects}>
+                    <Link className="button" to="/Projects">
                         {this.props.goProjects}
-                    </button>
+                    </Link>
 
                 </div>
     
