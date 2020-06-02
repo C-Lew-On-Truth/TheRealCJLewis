@@ -27,3 +27,10 @@ img {
     width: 100%;
     height: 100%;
 }
+
+@media only screen and (max-width: 850px) {
+    .aboutMe {
+        width: 100%;
+        margin: 10px;
+    }
+}

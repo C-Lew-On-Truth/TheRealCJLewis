@@ -1,5 +1,5 @@
 .navBar {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-flow: wrap row;
     justify-content: center;
@@ -10,7 +10,7 @@
     height: 50px;
     width: 200px;
     background-color: black;
-    font-family: "Comic Sans MS"; 
+    font-family: "Comic Sans MS";
     border: 5px ridge white;
     font-size: 25px;
     color: white;
@@ -24,3 +24,11 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width: 850px) {
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 2% auto;
+    }
+}

@@ -12,7 +12,7 @@ class Projects extends React.Component {
 
         return (
 
-            <div>
+            <div className="projectPage">
                 <header onClick={() => {alert(window.innerHeight)}}>Projects</header>
 
                 <NavBar
