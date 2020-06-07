@@ -14,15 +14,15 @@ class NavBar extends React.Component {
                         {this.props.goHome}
                     </Link>
     
-                    <Link className="button" to="/TheRealCJLewis/AboutMe">
+                    <Link className="button" to="/AboutMe">
                         {this.props.goAboutMe}
                     </Link>
 
-                    <Link className="button" to="/TheRealCJLewis/Experience">
+                    <Link className="button" to="/Experience">
                         {this.props.goExpo}
                     </Link>
     
-                    <Link className="button" to="/TheRealCJLewis/Projects">
+                    <Link className="button" to="/Projects">
                         {this.props.goProjects}
                     </Link>
 
