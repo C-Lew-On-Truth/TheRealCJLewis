@@ -10,7 +10,7 @@ class NavBar extends React.Component {
            
                 <div className="navBar">
     
-                    <Link className="button" to="/TheRealCJLewis">
+                    <Link className="button" to="/">
                         {this.props.goHome}
                     </Link>
     
