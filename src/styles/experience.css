@@ -41,10 +41,12 @@ a {
     .expoTemp {
         display: flex;
         flex-direction: column;
+        padding: 10px;
     }
 
     .expoSect {
         width: 100%;
         padding: 10px;
+        margin: 2% auto;
     }
 }

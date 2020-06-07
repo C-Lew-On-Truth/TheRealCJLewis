@@ -35,6 +35,7 @@
     align-items: center;
     justify-content: space-evenly;
     font-size: 15px;
+    padding: 10px;
 }
 
 .bottomBoxItems {
@@ -74,5 +75,21 @@
     .top2 {
         width: 100%;
         margin: 10px;
+    }
+
+    .bottomBoxItems {
+        width: 100%;
+    }
+ 
+    .imageSawg {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .selectFlexBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
