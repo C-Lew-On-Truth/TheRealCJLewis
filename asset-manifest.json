@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/TheRealCJLewis/static/css/main.be453e63.chunk.css",
+    "main.js": "/TheRealCJLewis/static/js/main.cc46e5a4.chunk.js",
+    "main.js.map": "/TheRealCJLewis/static/js/main.cc46e5a4.chunk.js.map",
+    "runtime-main.js": "/TheRealCJLewis/static/js/runtime-main.397930f1.js",
+    "runtime-main.js.map": "/TheRealCJLewis/static/js/runtime-main.397930f1.js.map",
+    "static/js/2.fe402805.chunk.js": "/TheRealCJLewis/static/js/2.fe402805.chunk.js",
+    "static/js/2.fe402805.chunk.js.map": "/TheRealCJLewis/static/js/2.fe402805.chunk.js.map",
+    "index.html": "/TheRealCJLewis/index.html",
+    "precache-manifest.405d7dfcc6782439f2bddea4272cf958.js": "/TheRealCJLewis/precache-manifest.405d7dfcc6782439f2bddea4272cf958.js",
+    "service-worker.js": "/TheRealCJLewis/service-worker.js",
+    "static/css/main.be453e63.chunk.css.map": "/TheRealCJLewis/static/css/main.be453e63.chunk.css.map",
+    "static/js/2.fe402805.chunk.js.LICENSE.txt": "/TheRealCJLewis/static/js/2.fe402805.chunk.js.LICENSE.txt",
+    "static/media/Amilion.jpg": "/TheRealCJLewis/static/media/Amilion.ab9b8635.jpg",
+    "static/media/BsThrowBack.jpg": "/TheRealCJLewis/static/media/BsThrowBack.9840df72.jpg",
+    "static/media/Channel-4-Sabres-PKG.mp4": "/TheRealCJLewis/static/media/Channel-4-Sabres-PKG.5da55cae.mp4",
+    "static/media/Food.JPG": "/TheRealCJLewis/static/media/Food.4fef2f1e.JPG",
+    "static/media/SPOR_original.mp4": "/TheRealCJLewis/static/media/SPOR_original.c498bc1b.mp4",
+    "static/media/StraightCheesin.jpg": "/TheRealCJLewis/static/media/StraightCheesin.881aa49e.jpg",
+    "static/media/Sunday-Skate-Movie.mp4": "/TheRealCJLewis/static/media/Sunday-Skate-Movie.44e8c2ec.mp4",
+    "static/media/profile-pic.jpg": "/TheRealCJLewis/static/media/profile-pic.bc599738.jpg",
+    "static/media/smileyFace2.jpg": "/TheRealCJLewis/static/media/smileyFace2.ae456f86.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.397930f1.js",
+    "static/js/2.fe402805.chunk.js",
+    "static/css/main.be453e63.chunk.css",
+    "static/js/main.cc46e5a4.chunk.js"
+  ]
+}
