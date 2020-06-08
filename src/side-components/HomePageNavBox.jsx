@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/home-page.css';
 
+import { Link } from 'react-router-dom';
+
 import QuestionMark from '../pictures/questionMark.jpg';
 import Exclamation from '../pictures/exclamationMark.jpg';
 import SmileyFace from '../pictures/smileyFace2.jpg';
@@ -12,33 +14,36 @@ class HomePageNavBox extends React.Component {
                 <section>
                     About Me
                     <div className="imageSwag">
-                        <img
-                            onClick={() => { window.location.href = "AboutMe" }}
-                            src={QuestionMark}
-                            alt=""
-                        />
+                        <Link to="/AboutMe">
+                            <img
+                                src={QuestionMark}
+                                alt=""
+                            />
+                        </Link>
                     </div>
                 </section>
 
                 <section>
                     Experience
                     <div className="imageSwag">
-                        <img
-                            onClick={() => { window.location.href = "Experience" }}
-                            src={Exclamation}
-                            alt=""
-                        />
+                        <Link to="/Experience">
+                            <img
+                                src={Exclamation}
+                                alt=""
+                            />
+                        </Link>
                     </div>
                 </section>
 
                 <section>
                     Projects
                     <div className="imageSwag">
-                        <img
-                            onClick={() => { window.location.href = "Projects" }}
-                            src={SmileyFace}
-                            alt=""
-                        />
+                        <Link to="Projects">
+                            <img
+                                src={SmileyFace}
+                                alt=""
+                            />
+                        </Link>
                     </div>
                 </section>
             </div>
