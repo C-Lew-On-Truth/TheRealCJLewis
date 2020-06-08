@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TheRealCJLewis/static/css/main.be453e63.chunk.css",
-    "main.js": "/TheRealCJLewis/static/js/main.3c4ddc38.chunk.js",
-    "main.js.map": "/TheRealCJLewis/static/js/main.3c4ddc38.chunk.js.map",
+    "main.css": "/TheRealCJLewis/static/css/main.823c70ab.chunk.css",
+    "main.js": "/TheRealCJLewis/static/js/main.7722ede1.chunk.js",
+    "main.js.map": "/TheRealCJLewis/static/js/main.7722ede1.chunk.js.map",
     "runtime-main.js": "/TheRealCJLewis/static/js/runtime-main.397930f1.js",
     "runtime-main.js.map": "/TheRealCJLewis/static/js/runtime-main.397930f1.js.map",
-    "static/js/2.72d84ebf.chunk.js": "/TheRealCJLewis/static/js/2.72d84ebf.chunk.js",
-    "static/js/2.72d84ebf.chunk.js.map": "/TheRealCJLewis/static/js/2.72d84ebf.chunk.js.map",
+    "static/js/2.9f254f58.chunk.js": "/TheRealCJLewis/static/js/2.9f254f58.chunk.js",
+    "static/js/2.9f254f58.chunk.js.map": "/TheRealCJLewis/static/js/2.9f254f58.chunk.js.map",
     "index.html": "/TheRealCJLewis/index.html",
-    "precache-manifest.22fe39f46028bf66150d157bbebb4b0a.js": "/TheRealCJLewis/precache-manifest.22fe39f46028bf66150d157bbebb4b0a.js",
+    "precache-manifest.5b48144534a0226afe293bb301756a65.js": "/TheRealCJLewis/precache-manifest.5b48144534a0226afe293bb301756a65.js",
     "service-worker.js": "/TheRealCJLewis/service-worker.js",
-    "static/css/main.be453e63.chunk.css.map": "/TheRealCJLewis/static/css/main.be453e63.chunk.css.map",
-    "static/js/2.72d84ebf.chunk.js.LICENSE.txt": "/TheRealCJLewis/static/js/2.72d84ebf.chunk.js.LICENSE.txt",
+    "static/css/main.823c70ab.chunk.css.map": "/TheRealCJLewis/static/css/main.823c70ab.chunk.css.map",
+    "static/js/2.9f254f58.chunk.js.LICENSE.txt": "/TheRealCJLewis/static/js/2.9f254f58.chunk.js.LICENSE.txt",
     "static/media/Amilion.jpg": "/TheRealCJLewis/static/media/Amilion.ab9b8635.jpg",
     "static/media/BsThrowBack.jpg": "/TheRealCJLewis/static/media/BsThrowBack.9840df72.jpg",
     "static/media/Channel-4-Sabres-PKG.mp4": "/TheRealCJLewis/static/media/Channel-4-Sabres-PKG.5da55cae.mp4",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.397930f1.js",
-    "static/js/2.72d84ebf.chunk.js",
-    "static/css/main.be453e63.chunk.css",
-    "static/js/main.3c4ddc38.chunk.js"
+    "static/js/2.9f254f58.chunk.js",
+    "static/css/main.823c70ab.chunk.css",
+    "static/js/main.7722ede1.chunk.js"
   ]
 }
