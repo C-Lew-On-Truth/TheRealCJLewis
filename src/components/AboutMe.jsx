@@ -3,7 +3,7 @@ import NavBar from '../side-components/NavBar.jsx';
 import AutoSlides from '../side-components/AutoSlides.jsx';
 import '../styles/about-me.css';
 import AutoPics from '../side-components/AutoPics.jsx';
-import {BreadcrumbItem, Accordion} from 'react-bootstrap';
+
 
 const AboutMePage = props => <span className="globalNavBar">{props.page}</span>
 
