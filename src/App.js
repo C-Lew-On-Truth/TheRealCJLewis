@@ -9,7 +9,7 @@ import Projects from './components/Projects.jsx';
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/TheRealCJLewis">
         <Route exact path="/" component={HomePage}/>
         <Route exact path="/AboutMe" component={AboutMe}/>
         <Route exact path="/Experience" component={Experience}/>
