@@ -13,3 +13,9 @@
         padding-bottom: 10px;
     }
 }
+
+@media only screen and (max-width: 630px) {
+    .projectPage {
+        padding-bottom: 10%;
+    }
+   }

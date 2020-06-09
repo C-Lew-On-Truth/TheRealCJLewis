@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../side-components/NavBar.jsx';
 import '../styles/experience.css';
-import {Accordion, ModalBody} from 'react-bootstrap';
+
 
 
 
