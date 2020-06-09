@@ -619,7 +619,7 @@ video {
     padding-top: 5%;
   }
   .awssld__wrapper {
-    padding-bottom: 20% !important;
+    padding-bottom: 20%;
     height: auto;
   }
   .videoHolder {
@@ -637,3 +637,4 @@ video {
     top: calc(70% - (0.5 * var(--control-button-height)));
   }
 }
+

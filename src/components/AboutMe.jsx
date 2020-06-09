@@ -27,10 +27,10 @@ class AboutMe extends React.Component {
                     <div className="sectionItems aboutMe">
                         <h1>Bio</h1>
                         <p>
-                            I was originally born in Upland, California although I was  raised in Reno, Nevada in the later
+                            I was originally born in Upland, California although, I was raised in Reno, Nevada in the later
                             stages of my youth! I consider myself to be a humble, multifaceted individual with 
                             a habit of always trying to improve in learn in any activities I choose to participate in. 
-                            As a leader, I do my best to lead by example and making sure everyone on my team is well informed and well 
+                            As a leader, I do my best to lead by example and make sure everyone on my team is well informed and well 
                             prepared! 
                             My interest include Sports, Cooking, and Music! When I was a young child, I became very
                             fond of the game of hockey! So fond in fact, I completedly commited to the game for over 
