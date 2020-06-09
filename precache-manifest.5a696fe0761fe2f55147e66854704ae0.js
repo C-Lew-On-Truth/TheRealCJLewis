@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a71bbe5cd6aeee47d23ace8fe5247a35",
+    "revision": "1e380810f1a612be12b4d54b81481880",
     "url": "/TheRealCJLewis/index.html"
   },
   {
-    "revision": "799d33b1bc0d701e8a96",
-    "url": "/TheRealCJLewis/static/css/main.c2d9e10c.chunk.css"
+    "revision": "24e24737729b8f86005d",
+    "url": "/TheRealCJLewis/static/css/main.11abab41.chunk.css"
   },
   {
     "revision": "1579a3dab3214d283a68",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TheRealCJLewis/static/js/2.9f254f58.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "799d33b1bc0d701e8a96",
-    "url": "/TheRealCJLewis/static/js/main.1545969d.chunk.js"
+    "revision": "24e24737729b8f86005d",
+    "url": "/TheRealCJLewis/static/js/main.d02e8553.chunk.js"
   },
   {
     "revision": "6fc16bb0e6b244924a78",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4fef2f1e0d4b8c532e36b63965f180e9",
     "url": "/TheRealCJLewis/static/media/Food.4fef2f1e.JPG"
+  },
+  {
+    "revision": "c31e868f6dd56fe4d0bf054e89fb8892",
+    "url": "/TheRealCJLewis/static/media/Professional_Resume_20.c31e868f.pdf"
   },
   {
     "revision": "c498bc1b129ee859b21786ce2f68f115",
