@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-export const Expo1 = () => {
-    return (
-        <p>
+export default [
+    {
+        expo: <p>
             <h1>Professional Foundation</h1>
             My foundation as a Media Technology Professional started out as
             Format DJ at WNBY 91.3 FM. This happened to be the campus radio station
@@ -18,14 +18,12 @@ export const Expo1 = () => {
             into any media environment. I was able to secure my degree in Media Productions
             in 2014 while also participating as four year NCAA Student Athlete on the Mens Hockey Team!
         </p>
-    )
-}
 
 
+    },
 
-export const Expo2 = () => {
-    return (
-        <p>
+    {
+        expo: <p>
             <h1>Employment Growth</h1>
             After graduating I spent a year in Buffalo working as a full time Line Cook and doing
             PA work on the side for a private Cinematographer named Jim Panzarella. However, the Buffalo
@@ -39,14 +37,10 @@ export const Expo2 = () => {
             deeper persepective in photography and videos along with acting as a troubleshooter for myself
             and other colleagues!
         </p>
-    )
-}
+    },
 
-
-
-export const Expo3 = () => {
-    return (
-        <p>
+    {
+        expo: <p>
             <h1>Seasoned Professional</h1>
             Working at Adobe gave me a knowledgable foundation on how software systems work along
             with the importance of media formats for video and images. I was also introduced to the world
@@ -59,6 +53,5 @@ export const Expo3 = () => {
             my responsibilities consist of quality control, media management, and technical troubleshooting!
             Being at New York One has been a pleasure, but I know that my journey is not complete!
         </p>
-    )
-}
-
+    }
+]
