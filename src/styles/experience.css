@@ -4,7 +4,7 @@
     flex-wrap: wrap column;
     align-items: center;
     padding-bottom: 10px;
-} 
+}
 
 .resume {
     margin: 1% auto;
@@ -51,18 +51,20 @@ a {
 
 .expoContainer {
     width: 50%;
-    margin: 12% auto;
+    margin: 10% auto;
     text-align: center;
+    border: 4px dashed white;
 }
 
 .entryTrigger {
-    border: 1px dashed white;
+    
+    padding: 2%;
     cursor: pointer;
     font-size: 150%;
 }
 
 .entryTrigger:hover {
-    background: green;
+    color: green;
 }
 
 .tabActive {
@@ -72,37 +74,49 @@ a {
     transform: translateX(-50%);
     transform: translateY(-20);
     background: black;
-    text-align: center;
     color: white;
     width: 50%;
-    border: 3px dashed white; 
+    border: 3px dashed white;
     padding: 10px;
     font-size: 20px;
 }
-
 
 @media only screen and (max-width: 850px) {
     .expoPage {
         text-align: center;
     }
-
     .expoTemp {
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
-
     .expoSect {
         width: 100%;
         padding: 10px;
         margin: 2% auto;
     }
-    
     .tabActive {
         width: 95%;
-        top: 50%;
+        top: 45%;
+    }
+    .entryTrigger {
+        font-size: 100%;
     }
 }
+
+
+@media only screen and (max-width: 550px) {
+    .expoContainer {
+        width: 95%;
+    }
+    .tabActive {
+        width: 95%;
+        top: 40%;
+    }
+}
+
+
+*/
 
 .centerHead {
     text-align: center !important
