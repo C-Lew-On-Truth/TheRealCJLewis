@@ -14,7 +14,7 @@ function App() {
       <Router basename="/TheRealCJLewis" forceRefresh={true}>
         <Route exact path="/" component={HomePage}/>
         <Route exact path="/AboutMe" component={AboutMe}/>
-        <Route exact path="/Experience" component={ThirdPartyExpo}/>
+        <Route exact path="/Experience" component={ExpoModal}/>
         <Route exact path="/Projects" component={Projects}/>
       </Router>
     </div>

@@ -19,6 +19,7 @@
     width: 100%;
     padding-bottom: 1%;
 }
+
 .expoSect {
     border: white dashed 2px;
     width: 30%;
@@ -49,23 +50,36 @@ a {
 /* Expo Modal Styles */
 
 .expoContainer {
-    width: 60%;
-    margin: 5% auto;
+    width: 50%;
+    margin: 12% auto;
     text-align: center;
 }
 
 .entryTrigger {
     border: 1px dashed white;
     cursor: pointer;
+    font-size: 150%;
 }
 
-.active {
-    display: block;
+.entryTrigger:hover {
+    background: green;
 }
 
-.notActive {
-    display: none
+.tabActive {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-20);
+    background: black;
+    text-align: center;
+    color: white;
+    width: 50%;
+    border: 3px dashed white; 
+    padding: 10px;
+    font-size: 20px;
 }
+
 
 @media only screen and (max-width: 850px) {
     .expoPage {
@@ -82,6 +96,11 @@ a {
         width: 100%;
         padding: 10px;
         margin: 2% auto;
+    }
+    
+    .tabActive {
+        width: 95%;
+        top: 50%;
     }
 }
 
