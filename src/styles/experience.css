@@ -46,6 +46,27 @@ a {
     background-color: black !important;
 }
 
+/* Expo Modal Styles */
+
+.expoContainer {
+    width: 60%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.entryTrigger {
+    border: 1px dashed white;
+    cursor: pointer;
+}
+
+.active {
+    display: block;
+}
+
+.notActive {
+    display: none
+}
+
 @media only screen and (max-width: 850px) {
     .expoPage {
         text-align: center;

@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe.jsx';
 import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
 import ThirdPartyExpo from './side-components/ThirdPartyExpo.jsx';
+import ExpoModal from './side-components/ExpoModal.jsx'
 
 
 function App() {
