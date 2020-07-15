@@ -13,7 +13,7 @@ class AboutMe extends React.Component {
 
         return (
             <div className="pageHolder">
-                <header onClick={() => { alert(window.innerWidth) }}>About Me</header>
+                <header>About Me</header>
 
                 <NavBar
                     goHome="Go Home"

@@ -9,7 +9,7 @@ class HomePage extends React.Component {
 
         return (
             <div>
-                <header onClick={() => { alert(window.innerWidth) }}>
+                <header>
                     Clayton J. Lewis
                </header>
                 <HomePageTopBox />

@@ -46,7 +46,7 @@ const ThirdPartyExpo = () => {
     return (
         <div className='expoPage'>
 
-            <header onClick={() => { alert(window.innerWidth) }}>Experience</header>
+            <header>Experience</header>
 
             <NavBar
                 goHome="Go Home"
