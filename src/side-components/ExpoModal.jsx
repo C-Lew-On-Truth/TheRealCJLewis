@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../side-components/NavBar.jsx';
 import '../styles/experience.css';
-import expoEntries from '../side-components/ExpoEntries.jsx'
+
 
 
 
@@ -23,7 +23,7 @@ const ExpoModal = () => {
                 <div className="entryTrigger">
                     <h1>Professional Foundation</h1>
                     <div>
-                        {expoEntries.expo1}
+                            
                     </div>
                 </div>
                 <div className="entryTrigger">
