@@ -101,8 +101,8 @@ class VideoExpos extends React.Component {
                     <h1>Buffalo Spy Video</h1>
                     <p className="videoInfo"> 
                         This is the first video I've ever produced! In my first Basic Production class
-                        our professor assigned us all to pick a name out a hat and to make a creative video
-                        from the specific name!
+                        our professor assigned us all to pick a name out of a hat and to make a creative video
+                        from that specific name!
                     </p>
                  <section section className="videoHolder">
                  <video
