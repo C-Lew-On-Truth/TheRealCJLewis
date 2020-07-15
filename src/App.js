@@ -4,6 +4,7 @@ import HomePage from './components/HomePage.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
+import ThirdPartyExpo from './side-components/ThirdPartyExpo.jsx';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <Router basename="/TheRealCJLewis" forceRefresh={true}>
         <Route exact path="/" component={HomePage}/>
         <Route exact path="/AboutMe" component={AboutMe}/>
-        <Route exact path="/Experience" component={Experience}/>
+        <Route exact path="/Experience" component={ThirdPartyExpo}/>
         <Route exact path="/Projects" component={Projects}/>
       </Router>
     </div>
