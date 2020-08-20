@@ -4,6 +4,7 @@
     flex-wrap: wrap column;
     align-items: center;
     padding-bottom: 10px;
+    height: auto;
 }
 
 .resume {
@@ -56,11 +57,11 @@ a {
     border: 4px dashed white;
 }
 
-.entryTrigger {
-    
-    padding: 2%;
+
+.header {
+    font-size: 250%;
     cursor: pointer;
-    font-size: 150%;
+    padding: 2%;
 }
 
 .entryTrigger:hover {
@@ -69,16 +70,32 @@ a {
 
 .tabActive {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     transform: translateY(-20);
     background: black;
     color: white;
     width: 50%;
-    border: 3px dashed white;
+    border: 5px dashed white;
     padding: 10px;
     font-size: 20px;
+}
+
+.exit {
+    margin: 1% auto;
+    width: 25%;
+    height: auto;
+    font-size: 20px;
+    background: black;
+    border: white dashed 3px;
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+    font-family: "Comic Sans MS";  
+}
+.exit:hover {
+    background: green;
 }
 
 @media only screen and (max-width: 850px) {

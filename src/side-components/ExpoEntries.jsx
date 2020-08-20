@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export default [
     {
         expo: 
@@ -17,9 +16,7 @@ export default [
             amount of time! I knew what to expect and what was required of me when stepping
             into any media environment. I was able to secure my degree in Media Productions
             in 2014 while also participating as four year NCAA Student Athlete on the Mens Hockey Team!
-        </p>
-
-
+        </p>,    
     },
 
     {
@@ -35,7 +32,7 @@ export default [
             and begin to develop technical skills which I discovered was just as necessary as being creative! From
             The National Hockey League, I would take on an operational role working at Adobe Stock Media! Here, I would gain a
             deeper perspective in photography and videos, along with acting as a troubleshooter for myself
-            as well as other colleagues!
+            and provide assistance for my fellow colleagues!
         </p>
     },
 

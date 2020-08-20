@@ -593,10 +593,13 @@
   margin: 0 auto;
   font-size: 20px;
   width: 60%;
+  padding-right: 2%;
+  padding-left: 2%;
 }
 
 h1 {
   margin: 0;
+  text-align: center;
 }
 
 video {
@@ -611,7 +614,7 @@ video {
 .videoHolder {
   border: 2px dashed white;
   width: 50%;
-  margin: 1% auto;
+  margin: 2% auto;
 }
 
 @media only screen and (max-width: 630px) {
